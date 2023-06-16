@@ -73,6 +73,6 @@ if __name__ == '__main__':
     if not os.path.exists(imgdir):
         os.mkdir(imgdir)
     g = generateCaptcha()
-    for i in range(1,10):
+    for i in range(1,100000):
         g.gen_test_captcha(imgdir)
     print("Done.")
