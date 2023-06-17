@@ -18,3 +18,6 @@ for file in "${LOCAL_DIR}"/*; do
     curl -T "${file}" -u "${USERNAME}:${PASSWORD}" "${remote_file}"
   fi
 done
+
+remote_file1="${REMOTE_DIR}/1.zip")"
+curl -T "${file}" -u "${USERNAME}:${PASSWORD}" "${remote_file1}"
