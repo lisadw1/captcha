@@ -1,9 +1,9 @@
 #!/bin/bash
 
-LOCAL_DIR="/path/to/local/folder"
-WEBDAV_URL="https://your-webdav-server/url/path/remote/folder"
-USERNAME="your_username"
-PASSWORD="your_password"
+LOCAL_DIR="/kaggle/working/dddd_trainer/projects/ocr1"
+WEBDAV_URL="https://wani.teracloud.jp/dav
+USERNAME="dawda"
+PASSWORD="DpS5H3jzA9VxF8hr"
 
 # 创建当前时间戳文件夹名称
 TIMESTAMP=$(date +"%Y%m%d-%H%M%S")
