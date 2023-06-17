@@ -1,6 +1,6 @@
 #!/bin/bash
 
-LOCAL_DIR="/kaggle/working/dddd_trainer/projects/ocr1"
+LOCAL_DIR="/kaggle/working/dddd_trainer/projects/ocr1/models"
 WEBDAV_URL="https://wani.teracloud.jp/dav"
 USERNAME="dawda"
 PASSWORD="DpS5H3jzA9VxF8hr"
