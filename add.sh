@@ -1,7 +1,7 @@
 #!/bin/bash
 
 LOCAL_DIR="/kaggle/working/dddd_trainer/projects/ocr1"
-WEBDAV_URL="https://wani.teracloud.jp/dav
+WEBDAV_URL="https://wani.teracloud.jp/dav"
 USERNAME="dawda"
 PASSWORD="DpS5H3jzA9VxF8hr"
 
