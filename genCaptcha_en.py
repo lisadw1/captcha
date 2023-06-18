@@ -23,8 +23,8 @@ class generateCaptcha():
                 width = 160,#验证码图片的宽
                 height = 60,#验证码图片的高
                 char_num = 4,#验证码字符个数
-                min_char_num = 1, #验证码字符最小个数
-                max_char_num = 10, #验证码字符最大个数
+                min_char_num = 4, #验证码字符最小个数
+                max_char_num = 4, #验证码字符最大个数
                 characters = string.digits + string.ascii_uppercase + string.ascii_lowercase):#验证码组成，数字+大写字母+小写字母
         self.width = width
         self.height = height
@@ -73,6 +73,6 @@ if __name__ == '__main__':
     if not os.path.exists(imgdir):
         os.mkdir(imgdir)
     g = generateCaptcha()
-    for i in range(1,5000):
+    for i in range(1,10000):
         g.gen_test_captcha(imgdir)
     print("Done.")
